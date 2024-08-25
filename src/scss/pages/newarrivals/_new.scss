@@ -1,0 +1,219 @@
+#newarrivals{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    .container{
+        .row{width: 100%;
+            .sidebar{
+                .photo{
+                    width: 315px;
+                    height: 400px;
+                    overflow: hidden;
+                    position: relative;
+                        margin-bottom: 20px;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;  
+                transition:transform 0.4s ease-in-out;
+               
+               
+            }
+            &:hover{
+                img{ transform: scale(1.07);}
+             }
+            .photocontext{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                inset: 0;
+                display: flex;
+                align-items: start;
+                justify-content: flex-start;
+                padding: 30px;
+    .context{
+    
+    .textf{font-size: 15px;
+        color: $textf;
+    
+        font-family: $base-font-family;
+        text-transform: uppercase;
+        
+    }
+    h4{line-height: 36px;
+        font-size: 26px;
+        margin-top: 7px;
+        color:$light;
+        font-weight: 600;
+        
+        
+        font-family: $base-font-family;
+    
+    }
+    .shop{
+       margin-top: 14px;
+        
+        border: 2px solid $border;
+        padding: 5px 14px;
+        display: inline-flex;
+    align-items: center;
+    justify-content: center;
+        
+    min-height: 36px;
+    font-size: 15px; color:$light;
+    font-weight: 600;
+    font-family: $base-font-family;
+    text-transform: uppercase;
+    
+    
+    transition: ease-in-out 0.4s;
+       
+    }
+    &:hover{
+        .shop{
+            border-color: $light;
+        }
+       }}
+    
+            }
+                }
+            }
+            .list{
+               
+                
+                    ul{  display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        gap: 15px;
+                        border-bottom: 1px solid rgba(194, 194, 194, 0.684);;
+
+                        li {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-decoration: none;
+                            
+                           a{
+                            font-weight: 600;
+                            margin-left: 15px;
+                            color:$navc;
+                            transition: ease-in-out 0.3s;
+                            font-size: 15px;
+                            font-family: $base-font-family;
+                            line-height: 1.2;
+                            text-decoration: none;
+                            &:hover {
+                                 color: $green;
+                               
+                            }
+                           }
+                           span{
+                            font-weight: 600;
+                            margin-left: 15px;
+                            color:$navc;
+                            transition: ease-in-out 0.3s;
+                            font-size: 23px;
+                            font-family: $base-font-family;
+                            line-height: 1.4;
+                            
+                            border-bottom: 2px solid $things;
+                           }
+                        }
+                    
+
+                }
+            }
+            .product{ width: 222px;height:100%;
+                padding: 0;
+                margin-left: 20px;
+                margin-top: 20px;
+                &__head{margin-bottom: 6px;
+                    
+                    &__img{
+                        width: 222px;
+                        height: 290px;
+                        overflow: hidden;
+                        position: relative;
+                        &:hover{
+                        .product__head__img__body{
+                            transform: translate(0px,-10px);
+                        }
+
+                        }
+                        img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+                        }
+                        &__body{
+                            position: absolute;
+                            left: 0;
+                            margin: 0 auto;
+                          transition: 0.5s ease-in-out;
+                            right: 0;
+                            bottom: 0;
+                            width: 70%;
+                            background-color:$light;
+                            transform: translate(0px, 100%);
+                            &__elements{
+                                ul{
+                                    padding: 0;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: row;
+                                    flex-wrap: nowrap;
+                                    li{
+                                        padding: 9px 11px;
+                                        i{
+                                            font-size: 20px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .circleinfo{
+                            border: 1px solid $green;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 100%;
+                            background-color: $green;
+                            position: absolute;
+                            top: 10px;
+                            left: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            span{
+                                color:$light;
+                                font-family: $base-font-family;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                &__body{font-size: 14px; text-align: center;
+                    font-family: $base-font-family;
+                    line-height: 25px;
+                    display: flex;
+                    justify-content: center
+ ;
+                   
+                  .productxt{
+                      
+                    h1{
+                        font-weight: 600;
+                    }
+                    p{
+                        color: $gray;
+                    }
+                    span{
+                        font-weight: 600;
+                        color: $green;
+                    }
+                  }
+                }
+            }
+        }
+    }
+}

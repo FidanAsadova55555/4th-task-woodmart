@@ -1,0 +1,129 @@
+#features{
+    .container{
+        .row{
+            .lefts{
+                .photo{
+                    width: 315px;
+                    height: 348px;
+                    overflow: hidden;
+                    position: relative;
+                        margin-bottom: 20px;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;  
+                transition:transform 0.4s ease-in-out;
+               
+               
+            }
+            &:hover{
+                img{ transform: scale(1.07);}
+             }
+            .photocontext{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                inset: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+    .context{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    .textf{font-size: 15px;
+        color: $gray;
+    
+        font-family: $base-font-family;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    h4{line-height: 36px;
+        font-size: 26px;
+        margin-top: 7px;
+        color:$navc;
+        font-weight: 600;text-align: center;
+        
+        
+        font-family: $base-font-family;
+    
+    }
+    .shopl{
+        margin-top: 14px;
+         
+         border: 2px solid $green;
+         padding: 5px 14px;
+         display: inline-flex;
+      align-items: center;
+      justify-content: center;
+         background-color: $green;
+      min-height: 36px;
+      font-size: 15px; color:$light;
+      font-weight: 600;
+      font-family: $base-font-family;
+      text-transform: uppercase;
+      transition: ease-in-out 0.4s;
+     
+      
+      }
+      &:hover{
+      .shopl{
+          background-color:#3E3E3E;
+          border-color: #3E3E3E;
+      }
+      
+      }}
+    
+            }
+                } 
+            }
+            .product-card {
+                display: flex;
+                align-items: start;
+                
+                padding: 20px;
+                background-color: #fff;
+                border-bottom: 1px solid rgb(225, 225, 225);
+                width: 100%;
+                
+                .product-image {
+                    width: 65px;
+                    height: 82px;
+                    margin-right: 15px;
+                    object-fit: contain;
+                    
+                }
+                
+               .cardtxt{
+                
+                .product-title {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #333;
+                    margin: 0;
+                    margin-bottom: 10px;
+                    font-family: $base-font-family;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        color: $gray;
+                    }
+                }
+                
+                .product-price {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: $green;
+                    margin: 0;
+                    margin-left: auto;
+                    font-family: $base-font-family;
+                }
+               }
+            }
+            
+        }
+    }
+}

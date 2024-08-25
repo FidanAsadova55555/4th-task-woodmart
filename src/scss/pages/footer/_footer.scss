@@ -1,0 +1,112 @@
+.footerlist{margin-top: 80px;
+    background-color: rgb(247, 247, 247);
+        .container{
+            .row{
+                width: 100%;
+                .things{
+                    margin: 40px 0;
+                    .tcontent{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 20px;
+    .info-box-content{
+        
+        
+       
+        
+        h4{
+            font-family: $base-font-family;
+            font-size: 16px;
+            font-weight: 600;
+            color: $things;
+            margin-bottom: 20px;
+           
+        }
+        p{font-family: $base-font-family;
+            font-size: 14px;
+            font-weight: $fontw;
+            color: $gray;
+    
+        }
+    
+    }
+                    }
+                }
+            }
+        }
+    }
+.footerlast{background-color: rgb(247, 247, 247);
+    border-top: 1px solid rgb(202, 202, 202);
+    .contact-card {
+        
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 400px;
+        
+        font-family:$base-font-family;
+        line-height: 1.7rem;
+    
+        .logo img {
+            width: 220px;
+            height: 32px;
+        }
+    
+        .more {
+            font-size: 14px;
+            color: #6c757d;
+            margin: 15px 0;
+        }
+    
+        .contactinfo {
+            margin: 20px 0;
+            
+            p {
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #495057;
+                margin: 10px 0;
+                
+                i {
+                    font-size: 16px;
+                    color: #6c757d;
+                    margin-right: 10px;
+                }
+            }
+        }
+    
+        .socialicons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: start;
+    
+            i {
+                font-size: 18px;
+                margin: 0 10px;
+                color: #495057;
+                cursor: pointer;
+    
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+    .footerlist{
+        border-radius: 8px;
+        max-width: 400px;margin: 20px;
+       
+        
+        font-family:$base-font-family;
+        line-height: 2.5rem;
+        ul{
+            li{font-size: 14px;
+                color: #6c757d;
+                font-family: $base-font-family;
+                font-weight: 400;
+                
+            }
+        }
+    }
+}
